@@ -1,5 +1,1 @@
-streamlit
-qutip
-numpy
-matplotlib.pyplot
-random
+﻿streamlitqutipnumpymatplotlib.pyplotrandom
