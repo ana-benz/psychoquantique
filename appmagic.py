@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import qutip as qt
 import matplotlib.pyplot as plt
-import random as rd
+
 
 st.title("Simulateur d'États Quantiques")
 
@@ -45,7 +45,7 @@ w_euph = max(0, initial_state_val) # Poids pour euphorie
 st.write(f"Coefficients: Dépression = {w_dep:.2f}, Neutre = {w_neu:.2f}, Euphorie = {w_euph:.2f}")
 
 if st.button("Lancer la simulation"):
-    rd.seed()
+    
 
     # États quantiques : |g> (neutre), |u> (euphorique), |d> (dépressif)
     g = qt.basis(3, 0)
